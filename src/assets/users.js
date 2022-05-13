@@ -1,0 +1,41 @@
+export const users = [
+    {
+        "id":1,
+        "username":"chemimartinez10",
+        "firstName":"Chemi",
+        "lastName":"Martinez",
+        "email":"chemimartinez10@gmail.com",
+        "isAdmin":true,
+        "twoots":[
+					{ "id": 1, "content": "Twooter is amazing!" },
+					{ "id": 2, "content": "Don't forget to suscribe" }
+				]
+    },
+    {
+        "id":2,
+        "username":"juanpe69",
+        "firstName":"Juan",
+        "lastName":"Perez",
+        "email":"juanperez@gmail.com",
+        "isAdmin":false,
+        "twoots":[]
+    },
+    {
+        "id":3,
+        "username":"mariajlf",
+        "firstName":"Maria",
+        "lastName":"Lee",
+        "email":"mjleef@gmail.com",
+        "isAdmin":false,
+        "twoots":[]
+    },
+    {
+        "id":4,
+        "username":"ernestorincon",
+        "firstName":"Ernesto",
+        "lastName":"Rincon",
+        "email":"ernes_rincon@outlook.com",
+        "isAdmin":false,
+        "twoots":[]
+    }
+]
